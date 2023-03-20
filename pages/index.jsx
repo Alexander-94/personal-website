@@ -1,15 +1,14 @@
-import Head from 'next/head';
-import MainContent from '../components/MainContent';
-import Layout from '../components/layout';
+import Head from "next/head";
+import MainContent from "../components/MainContent";
 
 /* todo MainContent components */
 export default function Home() {
   return (
-    <Layout home>    
+    <div>
       <Head>
         <title>Personal Website</title>
       </Head>
-      <MainContent/> 
-    </Layout>
+      <MainContent />
+    </div>
   );
 }
