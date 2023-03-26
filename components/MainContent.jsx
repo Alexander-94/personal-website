@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MainContent = () => {
   return (
-    <div className="bg-cover  bg-[url('/images/back.jpg')] h-screen">
+    <div className="bg-cover bg-[url('/images/backBlur.png')] h-screen">
       <div className="flex mx-auto w-[1300px] text-zinc-400">
         <div id="left_column" className="grid rounded-[5px] m-[10px] p-[30px] bg-zinc-800 w-[55%]">
           <div className="flex">
