@@ -35,12 +35,12 @@ const MainContent = () => {
           <div className="flex flex-row justify-evenly text-zinc-300">
             <p>Kiev, Ukraine</p>
             <p>alexandery41@gmail.com</p>
-            <p>+380 95 157 49 94</p>
+            <p><a href="https://github.com/Alexander-94">GitHub</a></p>
             <p><a href="https://t.me/alex641">https://t.me/alex641</a></p>
           </div>
           <div className="mt-[40px] flex flex-row justify-evenly items-start">
             <div id="DevelopmentSkills" className="grid w-[30%] mx-[20px]">
-            <p className="text-zinc-300">Development Skills</p>
+            <p className="text-zinc-300">SKILLS</p>
               <hr />
               <p className="hover:text-zinc-200 transition delay-75 duration-400">Java</p>
               <input type="range" min="0" max="100" value="95" className="range h-1 accent-zinc-200" />
@@ -59,14 +59,14 @@ const MainContent = () => {
 
             </div>
             <div id="LatestProjects" className="grid w-[40%] mx-[20px]">
-            <p className="text-zinc-300">Latest Projects</p>
+            <p className="text-zinc-300">LATEST PROJECTS</p>
               <hr />
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Account maintenance service</p>
-              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Electronic payment system</p>
-              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Payment system migration</p>
+              <p className="pt-2 text-sm hover:text-zinc-200 transition delay-75 duration-400">Electronic payment system</p>
+              <p className="pt-2 text-sm hover:text-zinc-200 transition delay-75 duration-400">Payment system migration</p>
             </div>
             <div id="Experience" className="grid w-[30%] mx-[20px] ">
-              <p className="text-zinc-300">Experience</p> 
+              <p className="text-zinc-300">EXPERIENCE</p> 
               <hr />
               <p className="text-2xl hover:text-zinc-200 transition delay-75 duration-400">5+ years</p>
               <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Backend Development</p>
@@ -75,14 +75,14 @@ const MainContent = () => {
           </div>
           <div className="mt-[40px] flex flex-row justify-evenly items-start ">
             <div id="Expertise" className="grid w-[30%] mx-[20px]">
-              <p className="text-zinc-300">Expertise</p>
+              <p className="text-zinc-300">EXPERTISE</p>
               <hr />
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Software architecture</p>
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Code refactoring</p>
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Unit/Integration testing</p>              
             </div>
             <div id="Interests" className="grid w-[40%] mx-[20px]">
-              <p className="text-zinc-300">Interests</p>
+              <p className="text-zinc-300">INTERESTS</p>
               <hr />
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Clean code</p>
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Rollerblading</p>
@@ -90,7 +90,7 @@ const MainContent = () => {
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Latest technology</p>
             </div>
             <div id="Rewards" className="grid w-[30%] mx-[20px]">
-            <p className="text-zinc-300">Courses</p>
+            <p className="text-zinc-300">COURSES</p>
               <hr />
               <p className="text-xs hover:text-zinc-200 transition delay-75 duration-400">Java Base/Advanced/Web, Educational center ITEA</p>
               <p className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">Red Hat Linux Essentials, Educational center ITEA</p>
@@ -106,7 +106,7 @@ const MainContent = () => {
           <div className="bg-zinc-800 rounded-[5px] p-[15px] font-SecularOne text-4xl text-zinc-100">LATEST PROJECTS</div>
           <div className="bg-opacity-0"/>
           <div className="bg-zinc-800 rounded-[5px] p-[15px] text-sm text-justify hover:text-zinc-200 transition delay-75 duration-400">
-            <p className="text-base text-zinc-100">Raiffeisen Bank Ukraine, Account maintenance service</p>
+            <p className="text-base text-zinc-100">RAIFFEISEN BANK UKRAINE, ACCOUNT MAINTENANCE SERVICE</p>
             <hr />
             <p className="pt-1">The creation of this app was part of the R&D activity in our department.</p>
             <p>After IT transformation started and new services began to deploy in K8S, we decided it would be an exciting approach to call core banking API libraries directly from the microservice app.</p>
@@ -117,14 +117,14 @@ const MainContent = () => {
           </div>
           <div className="bg-opacity-0"/>
           <div className="bg-zinc-800 rounded-[5px] p-[15px] text-sm text-justify hover:text-zinc-200 transition delay-75 duration-400">
-            <p className="text-base text-zinc-100">Raiffeisen Bank Ukraine, Electronic payment system</p>
+            <p className="text-base text-zinc-100">RAIFFEISEN BANK UKRAINE, ELECTRONIC PAYMENT SYSTEM</p>
             <hr />
             <p className="pt-1">As a team member, I have developed part of the electronic system, which handles payment coverage documents.</p>
             <p>The project's main goal was to implement an electronic payment system in the new standard - ISO20022, and develop a new application layer using modern tech stacks, such as Java 17, Spring Boot, Kafka, Docker, and ArgoCD.</p>
           </div>
           <div className="bg-opacity-0"/>
           <div className="bg-zinc-800 rounded-[5px] p-[15px] text-sm hover:text-zinc-200 transition delay-75 duration-400">
-            <p className="text-base text-zinc-100">Raiffeisen Bank Ukraine, Payment system migration</p>
+            <p className="text-base text-zinc-100">RAIFFEISEN BANK UKRAINE, PAYMENT SYSTEM MIGRATION</p>
             <hr />
             <p className="pt-1">The start of this project was inspired by migrating the existing payment system to the cloud and the need to implement the ISO20022 standard.</p>
             <p>A set of legacy programs was ported to Maven so that they could be integrated into the platform and run in the cloud. Also, I created a modern microservice that works as documents exchange part of the system, interacting with Kafka. </p>
