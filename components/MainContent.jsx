@@ -119,7 +119,7 @@ const MainContent = () => {
             <p>The project's main goal was to implement an electronic payment system in the new standard - ISO20022, and develop a new application layer using modern tech stacks, such as Java 17, Spring Boot, Kafka, Docker, and ArgoCD.</p>
           </div>
           <div className="text-sm hover:text-zinc-200 transition delay-75 duration-400">
-            <p>3. Raiffeisen Bank Ukraine, Payment system migration to the new platform</p>
+            <p>3. Raiffeisen Bank Ukraine, Payment system migration</p>
             <p className="pt-1">The start of this project was inspired by migrating the existing payment system to the cloud and the need to implement the ISO20022 standard.</p>
             <p>A set of legacy programs was ported to Maven so that they could be integrated into the platform and run in the cloud. Also, I created a modern microservice that works as documents exchange part of the system, interacting with Kafka. </p>
             <p>The project covered unit and integration tests.</p><br />
