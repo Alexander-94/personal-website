@@ -61,14 +61,14 @@ const MainContent = () => {
             <div id="LatestProjects" className="grid w-[40%] mx-[20px]">
             <p className="text-zinc-300">LATEST PROJECTS</p>
               <hr />
-              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Account maintenance service</p>
-              <p className="pt-2 text-sm hover:text-zinc-200 transition delay-75 duration-400">Electronic payment system</p>
-              <p className="pt-2 text-sm hover:text-zinc-200 transition delay-75 duration-400">Payment system migration</p>
+              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Account maintenance service</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Electronic payment system</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Payment system migration</p>
             </div>
             <div id="Experience" className="grid w-[30%] mx-[20px] ">
               <p className="text-zinc-300">EXPERIENCE</p> 
               <hr />
-              <p className="text-2xl hover:text-zinc-200 transition delay-75 duration-400">5+ years</p>
+              <p className="pt-1 text-xl hover:text-zinc-200 transition delay-75 duration-400">5+ years</p>
               <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Backend Development</p>
               <p className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">2018-2023</p>              
             </div>
@@ -77,14 +77,14 @@ const MainContent = () => {
             <div id="Expertise" className="grid w-[30%] mx-[20px]">
               <p className="text-zinc-300">EXPERTISE</p>
               <hr />
-              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Software architecture</p>
+              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Software architecture</p>
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Code refactoring</p>
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Unit/Integration testing</p>              
             </div>
             <div id="Interests" className="grid w-[40%] mx-[20px]">
               <p className="text-zinc-300">INTERESTS</p>
               <hr />
-              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Clean code</p>
+              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Clean code</p>
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Rollerblading</p>
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Front end</p>              
               <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Latest technology</p>
@@ -92,7 +92,7 @@ const MainContent = () => {
             <div id="Rewards" className="grid w-[30%] mx-[20px]">
             <p className="text-zinc-300">COURSES</p>
               <hr />
-              <p className="text-xs hover:text-zinc-200 transition delay-75 duration-400">Java Base/Advanced/Web, Educational center ITEA</p>
+              <p className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">Java Base/Advanced/Web, Educational center ITEA</p>
               <p className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">Red Hat Linux Essentials, Educational center ITEA</p>
               <div className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">
                 <p>Oracle Database 11g: SQL Workshop,</p>
