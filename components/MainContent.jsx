@@ -3,8 +3,8 @@ import Image from "next/image";
 const MainContent = () => {
   return (
     <div className="bg-zinc-600 h-screen">
-      <div className="flex mx-auto w-[1300px]  text-zinc-400">
-        <div id="left_column" className="grid m-[10px] p-[30px] bg-zinc-800 w-[60%]">
+      <div className="flex mx-auto w-[1300px] text-zinc-400">
+        <div id="left_column" className="grid rounded-[5px] m-[10px] p-[30px] bg-zinc-800 w-[55%]">
           <div className="flex">
               <Image className="rounded-full"
                 priority
@@ -61,57 +61,69 @@ const MainContent = () => {
             <div id="LatestProjects" className="grid w-[40%] mx-[20px]">
             <p className="text-zinc-300">Latest Projects</p>
               <hr />
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">Account maintenance service</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">Electronic payment system</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">Payment system migration</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Account maintenance service</p>
+              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Electronic payment system</p>
+              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Payment system migration</p>
             </div>
             <div id="Experience" className="grid w-[30%] mx-[20px] ">
               <p className="text-zinc-300">Experience</p> 
               <hr />
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test test</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test test</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">blah</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">blah</p>
+              <p className="text-2xl hover:text-zinc-200 transition delay-75 duration-400">5+ years</p>
+              <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">Backend Development</p>
+              <p className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">2018-2023</p>              
             </div>
           </div>
           <div className="mt-[40px] flex flex-row justify-evenly items-start ">
             <div id="Expertise" className="grid w-[30%] mx-[20px]">
               <p className="text-zinc-300">Expertise</p>
               <hr />
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test test</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">asdasdadasd a</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">lorem ipsum</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">asddsad asd asd</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Software architecture</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Code refactoring</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Unit/Integration testing</p>              
             </div>
             <div id="Interests" className="grid w-[40%] mx-[20px]">
               <p className="text-zinc-300">Interests</p>
               <hr />
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test test test</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test </p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">tese sretes wef</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Clean code</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Rollerblading</p>
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Front end</p>              
+              <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">Latest technology</p>
             </div>
             <div id="Rewards" className="grid w-[30%] mx-[20px]">
-            <p className="text-zinc-300">Rewards</p>
+            <p className="text-zinc-300">Courses</p>
               <hr />
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test test lorem </p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test</p>
-              <p className="hover:text-zinc-200 transition delay-75 duration-400">test</p>
+              <p className="text-xs hover:text-zinc-200 transition delay-75 duration-400">Java Base/Advanced/Web, Educational center ITEA</p>
+              <p className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">Red Hat Linux Essentials, Educational center ITEA</p>
+              <div className="pt-1 text-xs hover:text-zinc-200 transition delay-75 duration-400">
+                <p>Oracle Database 11g: SQL Workshop,</p>
+                <p>Educational center I-Klass</p>
+              </div>
             </div>
           </div>
         </div>
         
-        <div id="right_column" className="grid m-[10px] p-[30px] bg-zinc-800 w-[40%] text-zinc-300">
-          <div className="relative top-[30px] font-SecularOne text-3xl">Latest Projects</div>
-          <div>
-            <p className="hover:text-zinc-200 transition delay-75 duration-400">1. Raiffeisen Bank Ukraine, Account maintenance service</p>
+        <div id="right_column" className="grid rounded-[5px] m-[10px] p-[15px] bg-zinc-800 w-[45%] ">
+          <div className="relative top-[45px] font-SecularOne text-3xl">Latest Projects</div>
+          <div className="text-sm text-justify hover:text-zinc-200 transition delay-75 duration-400"><br />
+            <p>1. Raiffeisen Bank Ukraine, Account maintenance service</p>
+            <p className="pt-1">The creation of this app was part of the R&D activity in our department.</p>
+            <p>After IT transformation started and new services began to deploy in K8S, we decided it would be an exciting approach to call core banking API libraries directly from the microservice app.</p>
+            <p>Regarding Java, there are three main options to implement this: JNI, JNA, and JNR. We decided to use JNA because there was no need to generate C wrappers.</p>
+            <p>The main idea of POC is to split the app into the main microservice and Java application. The first part is fully integrable with all platform features like Kibana, Prometheus, and Boot Admin. The second part is used to call native API.</p>
+            <p>The design turned out to be successful and was implemented.</p><br />
+            Technologies used: Java 11, Spring Boot, JNA, Docker, SonarQube.
           </div>
-          <div>
-            <p className="">2. Raiffeisen Bank Ukraine, Electronic payment system</p>
+          <div className="text-sm text-justify hover:text-zinc-200 transition delay-75 duration-400">
+            <p>2. Raiffeisen Bank Ukraine, Electronic payment system</p>
+            <p className="pt-1">As a team member, I have developed part of the electronic system, which handles payment coverage documents.</p>
+            <p>The project's main goal was to implement an electronic payment system in the new standard - ISO20022, and develop a new application layer using modern tech stacks, such as Java 17, Spring Boot, Kafka, Docker, and ArgoCD.</p>
           </div>
-          <div>
-            <p className="">3. Raiffeisen Bank Ukraine, Payment system migration to new platform</p>
+          <div className="text-sm hover:text-zinc-200 transition delay-75 duration-400">
+            <p>3. Raiffeisen Bank Ukraine, Payment system migration to the new platform</p>
+            <p className="pt-1">The start of this project was inspired by migrating the existing payment system to the cloud and the need to implement the ISO20022 standard.</p>
+            <p>A set of legacy programs was ported to Maven so that they could be integrated into the platform and run in the cloud. Also, I created a modern microservice that works as documents exchange part of the system, interacting with Kafka. </p>
+            <p>The project covered unit and integration tests.</p><br />
+            <p>Technologies used: Java 17, Spring Boot, Jsoup, Kafka, Docker, and ArgoCD.</p>
           </div>
         </div>
       </div>
