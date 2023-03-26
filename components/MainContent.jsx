@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MainContent = () => {
   return (
-    <div className="bg-zinc-100 h-screen">
+    <div className="bg-cover  bg-[url('/images/back.jpg')] h-screen">
       <div className="flex mx-auto w-[1300px] text-zinc-400">
         <div id="left_column" className="grid rounded-[5px] m-[10px] p-[30px] bg-zinc-800 w-[55%]">
           <div className="flex">
@@ -104,7 +104,7 @@ const MainContent = () => {
                 
         <div id="right_column" className="grid m-[10px] w-[45%] ">
           <div className="bg-zinc-800 rounded-[5px] p-[15px] font-SecularOne text-4xl text-zinc-100">LATEST PROJECTS</div>
-          <div className="bg-zinc-100"/>
+          <div className="bg-opacity-0"/>
           <div className="bg-zinc-800 rounded-[5px] p-[15px] text-sm text-justify hover:text-zinc-200 transition delay-75 duration-400">
             <p className="text-base text-zinc-100">Raiffeisen Bank Ukraine, Account maintenance service</p>
             <hr />
@@ -115,14 +115,14 @@ const MainContent = () => {
             <p>The design turned out to be successful and was implemented.</p>
             Technologies used: Java 11, Spring Boot, JNA, Docker, SonarQube.
           </div>
-          <div className="bg-zinc-100"/>
+          <div className="bg-opacity-0"/>
           <div className="bg-zinc-800 rounded-[5px] p-[15px] text-sm text-justify hover:text-zinc-200 transition delay-75 duration-400">
             <p className="text-base text-zinc-100">Raiffeisen Bank Ukraine, Electronic payment system</p>
             <hr />
             <p className="pt-1">As a team member, I have developed part of the electronic system, which handles payment coverage documents.</p>
             <p>The project's main goal was to implement an electronic payment system in the new standard - ISO20022, and develop a new application layer using modern tech stacks, such as Java 17, Spring Boot, Kafka, Docker, and ArgoCD.</p>
           </div>
-          <div className="bg-zinc-100"/>
+          <div className="bg-opacity-0"/>
           <div className="bg-zinc-800 rounded-[5px] p-[15px] text-sm hover:text-zinc-200 transition delay-75 duration-400">
             <p className="text-base text-zinc-100">Raiffeisen Bank Ukraine, Payment system migration</p>
             <hr />
