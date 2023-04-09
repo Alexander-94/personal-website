@@ -1,9 +1,8 @@
 export default function InfoBlock(props) {
   return (
-    <div>      
+    <div>
       {props.title}
-      <hr/>
-
+      <hr />
     </div>
   );
 }

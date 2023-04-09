@@ -5,12 +5,12 @@ const EmptyStub = (e) => {};
 const MainContent = () => {
   return (
     <div>
-      <div className="absolute -z-10 min-w-full min-h-full md:bg-cover bg-[url('/images/backBlur.png')]" />
+      <div className="fixed -z-10 w-full h-full bg-cover bg-[url('/images/backBlur.png')]"></div>
       <div>
-        <div className="grid md:flex mx-auto w-[1300px] text-zinc-400">
+        <div className="grid md:flex mx-auto md:w-[1300px] text-zinc-400">
           <div
             id="left_column"
-            className="grid rounded-[5px] m-[10px] p-[30px] bg-zinc-800 w-[55%]"
+            className="grid rounded-[5px] m-[10px] md:m-[10px] p-[30px] bg-zinc-800 w-[115%] md:w-[55%]"
           >
             <div className="flex">
               <Image
@@ -134,19 +134,42 @@ const MainContent = () => {
                   onChange={EmptyStub}
                 />
               </div>
-              <div id="LatestProjects" className="grid w-[40%] mx-[20px]">
-                <p className="text-zinc-300">LATEST PROJECTS</p>
-                <hr />
-                <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
-                  Account maintenance service
-                </p>
-                <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">
-                  Electronic payment system
-                </p>
-                <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">
-                  Payment system migration
-                </p>
+              <div className="grid w-[40%] mx-[20px] gap-y-5">
+                <div id="LatestProjects" className="">
+                  <p className="text-zinc-300">LATEST PROJECTS</p>
+                  <hr />
+                  <p className="pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
+                    Account maintenance service
+                  </p>
+                  <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">
+                    Electronic payment system
+                  </p>
+                  <p className="text-sm hover:text-zinc-200 transition delay-75 duration-400">
+                    Payment system migration
+                  </p>
+                </div>
+                <div id="Lanuguages" className="">
+                  <p className="text-zinc-300">LANGUAGES</p>
+                  <hr />
+                  <div className="flex pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
+                    <div className="flex-row w-20">Ukrainian</div>
+                    <div className="flex-row">&#8827;native</div>
+                  </div>
+                  <div className="flex flex-row pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
+                    <div className="flex-row w-20">Russian</div>
+                    <div className="flex-row">&#8827;native</div>
+                  </div>
+                  <div className="flex flex-row pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
+                    <div className="flex-row w-20">English</div>
+                    <div className="flex-row">&#8827;IELTS 7.0</div>
+                  </div>
+                  <div className="flex flex-row pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
+                    <div className="flex-row w-20">German</div>
+                    <div className="flex-row">&#8827;A1</div>
+                  </div>
+                </div>
               </div>
+
               <div id="Experience" className="grid w-[30%] mx-[20px] ">
                 <p className="text-zinc-300">EXPERIENCE</p>
                 <hr />
@@ -206,39 +229,9 @@ const MainContent = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-[20px] flex flex-row justify-evenly items-start ">
-              <div id="Lanuguages" className="grid w-[30%] mx-[20px]">
-                <p className="text-zinc-300">LANGUAGES</p>
-                <hr />
-                <div className="flex pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
-                  <div className="flex-row w-20">Ukrainian</div>
-                  <div className="flex-row">&#8827;native</div>
-                </div>
-                <div className="flex flex-row pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
-                  <div className="flex-row w-20">Russian</div>
-                  <div className="flex-row">&#8827;native</div>
-                </div>
-                <div className="flex flex-row pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
-                  <div className="flex-row w-20">English</div>
-                  <div className="flex-row">&#8827;IELTS 7.0</div>
-                </div>
-                <div className="flex flex-row pt-1 text-sm hover:text-zinc-200 transition delay-75 duration-400">
-                  <div className="flex-row w-20">German</div>
-                  <div className="flex-row">&#8827;A1</div>
-                </div>
-              </div>
-              <div id="Interests" className="grid w-[40%] mx-[20px]">
-                <p className="text-zinc-300">&nbsp;</p>
-                <hr />
-              </div>
-              <div id="Courses" className="grid w-[30%] mx-[20px]">
-                <p className="text-zinc-300">&nbsp;</p>
-                <hr />
-              </div>
-            </div>
           </div>
 
-          <div id="right_column" className="grid m-[10px] w-[45%] ">
+          <div id="right_column" className="grid m-[10px] w-[115%] md:w-[45%] ">
             <div className="bg-zinc-800 rounded-[5px] p-[15px] font-SecularOne text-4xl text-zinc-100">
               LATEST PROJECTS
             </div>
