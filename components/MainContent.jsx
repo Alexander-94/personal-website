@@ -1,12 +1,12 @@
-import Languages from "../components/atoms/Languages";
-import LatestProjects from "../components/atoms/LatestProjects";
-import Skills from "../components/atoms/Skills";
-import Experience from "../components/atoms/Experience";
-import Expertise from "../components/atoms/Expertise";
-import Interests from "../components/atoms/Interests";
-import Courses from "../components/atoms/Courses";
-import Head from "../components/atoms/Head";
-import LatestProjectsFull from "../components/atoms/LatestProjectsFull";
+import Languages from "../components/atoms/Languages.jsx";
+import LatestProjects from "../components/atoms/LatestProjects.jsx";
+import Skills from "../components/atoms/Skills.jsx";
+import Experience from "../components/atoms/Experience.jsx";
+import Expertise from "../components/atoms/Expertise.jsx";
+import Interests from "../components/atoms/Interests.jsx";
+import Courses from "../components/atoms/Courses.jsx";
+import Head from "../components/atoms/Head.jsx";
+import LatestProjectsFull from "../components/atoms/LatestProjectsFull.jsx";
 
 const MainContent = () => {
   return (
