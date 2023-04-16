@@ -49,7 +49,7 @@ export default function LatestProjectsFull(props) {
           which handles payment coverage documents.
         </p>
         <p>
-          The project's main goal was to implement an electronic payment system
+          The project&apos;s main goal was to implement an electronic payment system
           in the new standard - ISO20022, and develop a new application layer
           using modern tech stacks, such as Java 17, Spring Boot, Kafka, Docker,
           and ArgoCD.
